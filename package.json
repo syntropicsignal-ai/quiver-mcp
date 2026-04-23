@@ -1,0 +1,47 @@
+{
+  "name": "@syntropic/quiver-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for QuiverAI — generate and vectorize SVGs via Claude and other AI tools",
+  "keywords": [
+    "mcp",
+    "quiverai",
+    "svg",
+    "ai",
+    "vectorize"
+  ],
+  "license": "MIT",
+  "author": "kamil-bidus <kamil@syntropicsignal.ai>",
+  "homepage": "https://syntropicsignal.ai",
+  "bugs": {
+    "email": "bugs@syntropicsignal.ai",
+    "url": "https://github.com/syntropicsignal-ai/quiver-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syntropicsignal-ai/quiver-mcp.git"
+  },
+  "type": "module",
+  "bin": {
+    "quiver-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "@quiverai/sdk": "^0.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
