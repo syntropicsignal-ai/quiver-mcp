@@ -1,6 +1,6 @@
 {
   "name": "@syntropic/quiver-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for QuiverAI — generate and vectorize SVGs via Claude and other AI tools",
   "keywords": [
     "mcp",

@@ -18,7 +18,7 @@ if (!apiKey) {
 const quiver = new QuiverAI({ bearerAuth: apiKey });
 
 const server = new Server(
-  { name: "quiver-mcp", version: "0.1.0" },
+  { name: "quiver-mcp", version: "0.1.1" },
   { capabilities: { tools: {} } }
 );
 
@@ -141,7 +141,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
           model: {
             type: "string",
             description:
-              "Model ID to use. Recommended: 'arrow-preview' (Arrow 1.0, #1 on SVG Arena). Use list_models to discover all options.",
+              "Model ID to use. Recommended: 'arrow-1.1' (newest, cheapest at 20 credits/gen). Other options: 'arrow-1' (Arrow 1.0, 30 credits), 'arrow-1.1-max' (higher quality, 25 credits). Use list_models to discover available models.",
           },
           instructions: {
             type: "string",
