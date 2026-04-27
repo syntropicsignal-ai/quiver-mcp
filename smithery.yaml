@@ -1,0 +1,16 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - QUIVERAI_API_KEY
+    properties:
+      QUIVERAI_API_KEY:
+        type: string
+        description: Your QuiverAI API key (https://app.quiver.ai)
+  commandFunction: |-
+    (config) => ({
+      command: 'npx',
+      args: ['-y', '@syntropic/quiver-mcp'],
+      env: { QUIVERAI_API_KEY: config.QUIVERAI_API_KEY }
+    })
