@@ -1,10 +1,18 @@
-# quiver-mcp
+<p align="center">
+  <img src="examples/logo.svg" width="120" alt="quiver-mcp logo" />
+</p>
 
-[![npm version](https://img.shields.io/npm/v/@syntropic/quiver-mcp.svg)](https://www.npmjs.com/package/@syntropic/quiver-mcp)
-[![npm downloads](https://img.shields.io/npm/dw/@syntropic/quiver-mcp.svg)](https://www.npmjs.com/package/@syntropic/quiver-mcp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<h1 align="center">quiver-mcp</h1>
 
-MCP server for [QuiverAI](https://quiverai.com) — generate SVGs from text prompts and vectorize raster images using AI, directly from Claude (or any MCP-compatible client).
+<p align="center">
+  <a href="https://www.npmjs.com/package/@syntropic/quiver-mcp"><img src="https://img.shields.io/npm/v/@syntropic/quiver-mcp.svg" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/@syntropic/quiver-mcp"><img src="https://img.shields.io/npm/dw/@syntropic/quiver-mcp.svg" alt="npm downloads" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+</p>
+
+<p align="center">
+  MCP server for <a href="https://quiverai.com">QuiverAI</a> — generate SVGs from text prompts and vectorize raster images using AI, directly from Claude (or any MCP-compatible client).
+</p>
 
 ## Examples
 
