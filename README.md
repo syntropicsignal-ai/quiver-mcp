@@ -7,6 +7,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/@syntropic/quiver-mcp"><img src="https://img.shields.io/npm/v/@syntropic/quiver-mcp.svg" alt="npm version" /></a>
   <a href="https://www.npmjs.com/package/@syntropic/quiver-mcp"><img src="https://img.shields.io/npm/dw/@syntropic/quiver-mcp.svg" alt="npm downloads" /></a>
+  <a href="https://glama.ai/mcp/servers/syntropicsignal-ai/quiver-mcp"><img src="https://glama.ai/mcp/servers/syntropicsignal-ai/quiver-mcp/badges/score.svg" alt="glama" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
 </p>
 
